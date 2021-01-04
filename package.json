@@ -11,6 +11,8 @@
   "author": "Peter deHaan <peter@deseloper.com> (https://about.me/peterdehaan)",
   "license": "MPL-2.0",
   "devDependencies": {
-    "@11ty/eleventy": "^0.11.1"
-  }
+    "@11ty/eleventy": "^0.11.1",
+    "markdown-it": "^12.0.4"
+  },
+  "dependencies": {}
 }
