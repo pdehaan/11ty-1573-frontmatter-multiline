@@ -14,3 +14,11 @@ author: pdehaan
 # {{ title }}
 
 {{ excerpt }}
+
+---
+
+1. "This is some text to confirm smartquotes are on"
+2. **"This is some more text with asterisks"**
+3. __"This is some alt markdown text with underlines"__
+4. _"This is some alt markdown text with underlines"_
+5. *"And this is text to confirm it's only bold causing this"*

@@ -1,0 +1,29 @@
+---
+title: HOME (Liquid)
+eleventyComputed:
+  excerpt: |
+    ## {{ title }} subheading
+
+    This is some content.
+    Linebreaks?
+
+    Or multi-blank lines for a line break?
+
+author: pdehaan
+---
+
+<h1>{{ title }}</h1>
+
+{{ excerpt | markdown }}
+
+<hr/>
+
+{% capture content %}
+  1. "This is some text to confirm smartquotes are on"
+  2. **"This is some more text with asterisks"**
+  3. __"This is some alt markdown text with underlines"__
+  4. _"This is some alt markdown text with underlines"_
+  5. *"And this is text to confirm it's only bold causing this"*
+{% endcapture %}
+
+{{ content | markdown }}
